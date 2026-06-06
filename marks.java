@@ -6,7 +6,7 @@ System.out.println("Enter the students register numbers");
 int n=sc.nextInt(); 
 
 int []a=new int[n];
-for(int i=0;i<n;i++){
+for(int i=0;i<=n;i++){
 a[i]=sc.nextInt();
 System.out.println(a[i]+" ");
 }
@@ -41,7 +41,8 @@ avg[j+1]=temp;
 }
 for(int i=0;i<m;i++){
 
-System.out.printf("%.2f",avg[i]+" ");
+System.out.printf("%.2f",avg[i]+);
+System.out.println();
 }
 }
 }
