@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:30px;
+}
+
+.resume{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+.left{
+    width:35%;
+    background:linear-gradient(180deg,#a9e695,#68cd09);
+    color:white;
+    padding:30px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile h1{
+    font-size:30px;
+}
+
+.profile p{
+    margin-top:8px;
+    color:#d9e9ff;
+}
+
+.section{
+    margin-bottom:25px;
+}
+
+.section h2{
+    margin-bottom:10px;
+    border-bottom:2px solid #fff;
+    padding-bottom:5px;
+}
+
+.left ul{
+    padding-left:20px;
+}
+
+.left li{
+    margin-bottom:8px;
+}
+
+.right{
+    width:65%;
+    padding:30px;
+}
+
+.right .section h2{
+    color:#0f4c81;
+    border-bottom:2px solid #0f4c81;
+}
+
+.item{
+    margin-bottom:15px;
+}
+
+.item h3{
+    color:#1f6fb2;
+    margin-bottom:5px;
+}
+
+.item span{
+    font-weight:bold;
+    color:#555;
+}
+
+.right ul{
+    padding-left:20px;
+}
+
+.right li{
+    margin-bottom:8px;
+}
+
+@media(max-width:768px){
+    .resume{
+        flex-direction:column;
+    }
+
+    .left,.right{
+        width:100%;
+    }
+}
